@@ -1,0 +1,145 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    font-family: 'Chivo', sans-serif;
+
+    background-image: url("https://w.ladicdn.com/s768x1629/63b3d7bebcd4e8001229d39c/20230620015219-be16d5c4-8c8b-4bd6-b964-2e8c5470a96c-39-1-20241013065229-eny3m.jpg");
+    background-attachment: fixed; /* Fixe l'image d'arrière-plan */
+    background-size: cover; /* Couvre tout l'espace de la fenêtre */
+    background-position: center; /* Centre l'image */
+}
+
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+     /* Prend toute la hauteur de la fenêtre */
+}
+
+.load {
+    height: 100vh;
+    background-image: url("https://w.ladicdn.com/63b3d7bebcd4e8001229d39c/8eff81d46686e3c82c64565eb09393b9-20241013060218-pdzl9.gif");
+}
+
+.load img {
+    max-width: 50%; /* Garde l'image responsive */
+    max-height: 50%; /* Garde l'image responsive */
+}
+
+.princ {
+    display: none;
+    background-image: url("https://w.ladicdn.com/63b3d7bebcd4e8001229d39c/3bbs-20241005014530-3e1jp.gif");
+    background-attachment: fixed; /* Fixe l'image d'arrière-plan */
+    filter: blur(0.7px); /* Applique le flou */
+
+    align-items: center; /* Centrer horizontalement */
+    justify-content: center; /* Centrer verticalement si nécessaire */
+    text-align: center; /* Centrer le texte */
+    margin-bottom: 25px;
+}
+
+.ordinateur {
+    position: relative; /* Nécessaire pour positionner l'overlay */
+}
+
+.ordinateur img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 800px; /* Largeur fixe de l'image de l'ordinateur */
+}
+
+.vide {
+    z-index: -1;
+    position: absolute; /* Positionne la vidéo par rapport à l'ordinateur */
+    top: 0; /* Aligne au bord supérieur */
+    left: 48%; /* Centre horizontalement */
+    transform: translateX(-50%); /* Ajuste le centrage */
+}
+.gifordi{
+    z-index: 1;
+    position: absolute; /* Positionne la vidéo par rapport à l'ordinateur */
+    top: 45%; /* Aligne au bord supérieur */
+    left: 48%; /* Centre horizontalement */
+    transform: translateX(-50%); /* Ajuste le centrage */
+}
+
+video {
+    margin-top: 23%;
+    max-width: 100%;
+    width: 400px;
+    
+
+}
+.biet{
+
+    margin-top: 20%;
+    max-width: 100%;
+    width: 6000px;
+    position: absolute;
+    top: 0;
+    left: 48%; /* Centre horizontalement */
+    transform: translateX(-50%);
+    z-index: -1;
+    
+
+}
+.biet2{
+    margin-top: 40%;
+    max-width: 100%;
+    width: 6000px;
+    position: absolute;
+    top: 0;
+    left: 48%; /* Centre horizontalement */
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute; /* Positionne l'overlay par rapport au parent */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255); /* Transparent */
+    pointer-events: auto; /* Active les événements de pointeur sur l'overlay */
+}
+
+.infoReseau{
+    display: flex;
+    flex-direction: column; /* Aligner les éléments verticalement */
+    align-items: center; /* Centrer horizontalement */
+    justify-content: center; /* Centrer verticalement si nécessaire */
+    text-align: center; /* Centrer le texte */
+}
+
+.lik{
+    font-weight: bold;
+    font-size: 40px;
+    color: white; 
+    text-shadow: 2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+.bt{
+    text-decoration: none;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: rgb(2, 88, 20);
+}
+
+.image{
+
+    width: 75%;
+}
+.image img{
+    width: 20%;
+}
+.pa{
+    width: 60%;
+    font-size: 30px;
+    color: white; 
+    text-shadow: 2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
