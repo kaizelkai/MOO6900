@@ -13,6 +13,7 @@ body, html {
 
 
 .slide {
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centre horizontalement */
@@ -114,6 +115,7 @@ video {
     align-items: center; /* Centrer horizontalement */
     justify-content: center; /* Centrer verticalement si nécessaire */
     text-align: center; /* Centrer le texte */
+    gap: 10px;
 }
 
 .lik{
@@ -132,7 +134,7 @@ video {
 
 .image{
 
-    width: 75%;
+    width: 100%;
 }
 .image img{
     width: 20%;
